@@ -7,7 +7,7 @@ The data used in this app is from the Bureau of Transportation Statistics Airlin
 This data was combined with an airport city, latitude and longitude for better visualizations. These can be found on the "Visualizations" page. Our flight price prediction model used a random 25% sample of Q1 2020 data from above. Our model is based on the most recent quarter as this most accurately reflects the current travel environment. Our model is based on Origin, Destination, Distance, Operating Carrier, Quarter, and Passenger Numbers. We used a "linear regression" model using these inputs as we noticed a higher correlation between these and flight ticket price.
 
 <p align="center">
-  <img src="Data.png" width="300">
+  <img src="images/mData.png" width="300">
 </p>
 
 
@@ -24,13 +24,13 @@ To build this model, first we needed a correlation between our target, the Fare 
 First, the data was tested with linear models which included a Linear Regression, Logistic Regression model, K Neighbors Classifier, Support Vector Machine (SVM) and also Tree Models like: Random Forest Regressor, Decision Tree Classifier, Bagging Classifier, Random Forest Classifier, Ada Boost Classifier, Gradient Boosting Classifier and XTREME Gradient Boosting Classifier. That is a total of 22 models. 
 
 <p align="center">
-  <img src="model.png" width="300">
+  <img src="images/model.png" width="300">
 </p>
 
 Out of these 22 models the two with best results were the Linear Regression and Random Forest Regressor. Here is a comparison for both models. Although the Random Forest Regressor had a negative r2 score on the test, it had a better result on the Train and that is why it was tested on production with better results. 
 
 <p align="center">
-  <img src="gra.PNG">
+  <img src="images/mgra.PNG">
 </p>
 
 Interface
@@ -38,5 +38,5 @@ Interface
 We deployed our site on Heroku and laid out our analysis and prediction model on five pages (Home, Price Predictor, Visualizations, Methodology, About). Utilizing bootswatch, CSS and D3 event listeners, we were able to create a meaningful website for our end-users.
 
 <p align="center">
-  <img width="460" height="300" src="FPP.PNG">
+  <img width="460" height="300" src="images/mFPP.PNG">
 </p>
