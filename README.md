@@ -38,5 +38,5 @@ Interface
 We deployed our site on Heroku and laid out our analysis and prediction model on five pages (Home, Price Predictor, Visualizations, Methodology, About). Utilizing bootswatch, CSS and D3 event listeners, we were able to create a meaningful website for our end-users.
 
 <p align="center">
-  <img width="460" height="300" src="images/FPP.PNG">
+  <img width="600" src="images/FPP.PNG">
 </p>
