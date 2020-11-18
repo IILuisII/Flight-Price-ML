@@ -4,6 +4,8 @@ Data
 
 The data used in this app is from the Bureau of Transportation Statistics Airline Origin and Destination Survey ("DB1BCoupon" and "DB1BTicket" tables).To make more meaningful data visualizations, we included the airport names, city names and coordinates (latitude, longitude). This required finding an appropriate dataset that contained these fields. We then joined this data to the BTS data using Python Pandas library.We based our visualizations on a random 5% sample of the last three years of data. This data was combined with an airport city, latitude and longitude for better visualizations. These can be found on the "Visualizations" page.Our flight price prediction model used a random 25% sample of Q1 2020 data from above. Our model is based on the most recent quarter as this most accurately reflects the current travel environment. Our model is based on Origin, Destination, Distance, Operating Carrier, Quarter, and Passenger Numbers. We used a "linear regression" model using these inputs as we noticed a higher correlation between these and flight ticket price.
 
+![alt text](C:\Users\Maxi\Documents\Portfolio\Flight Price\data)
+
 Machine Learning Model
 
 Overview
