@@ -27,10 +27,11 @@ First, the data was tested with linear models which included a Linear Regression
   <img src="model.png" width="300">
 </p>
 
-Out of these 22 models the two with best results were the Linear Regression and Random Forest Regressor. Here is a comparison for both models: 
+Out of these 22 models the two with best results were the Linear Regression and Random Forest Regressor. Here is a comparison for both models. Although the Random Forest Regressor had a negative r2 score on the test, it had a better result on the Train and that is why it was tested on production with better results. 
 
-
-Although the Random Forest Regressor had a negative r2 score on the test, it had a better result on the Train and that is why it was tested on production with better results. 
+<p align="center">
+  <img src="gra.png">
+</p>
 
 Interface
 
