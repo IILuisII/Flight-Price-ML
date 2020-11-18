@@ -23,6 +23,10 @@ To build this model, first we needed a correlation between our target, the Fare 
 
 First, the data was tested with linear models which included a Linear Regression, Logistic Regression model, K Neighbors Classifier, Support Vector Machine (SVM) and also Tree Models like: Random Forest Regressor, Decision Tree Classifier, Bagging Classifier, Random Forest Classifier, Ada Boost Classifier, Gradient Boosting Classifier and XTREME Gradient Boosting Classifier. That is a total of 22 models. 
 
+<p align="center">
+  <img src="model.png" width="300">
+</p>
+
 Out of these 22 models the two with best results were the Linear Regression and Random Forest Regressor. Here is a comparison for both models: 
 
 
