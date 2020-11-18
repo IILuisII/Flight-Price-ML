@@ -7,7 +7,7 @@ The data used in this app is from the Bureau of Transportation Statistics Airlin
 This data was combined with an airport city, latitude and longitude for better visualizations. These can be found on the "Visualizations" page. Our flight price prediction model used a random 25% sample of Q1 2020 data from above. Our model is based on the most recent quarter as this most accurately reflects the current travel environment. Our model is based on Origin, Destination, Distance, Operating Carrier, Quarter, and Passenger Numbers. We used a "linear regression" model using these inputs as we noticed a higher correlation between these and flight ticket price.
 
 <p align="center">
-  <img width="460" height="300" src="FPP">
+  <img width="460" height="300" src="FPP.PNG">
 </p>
 
 
@@ -31,3 +31,7 @@ Although the Random Forest Regressor had a negative r2 score on the test, it had
 Interface
 
 We deployed our site on Heroku and laid out our analysis and prediction model on five pages (Home, Price Predictor, Visualizations, Methodology, About). Utilizing bootswatch, CSS and D3 event listeners, we were able to create a meaningful website for our end-users.
+
+<p align="center">
+  <img width="460" height="300" src="FPP.PNG">
+</p>
